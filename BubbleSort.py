@@ -11,7 +11,7 @@ def bubble_sort(list, selectedOrder): #selectedOrder could be either 'lth' (low-
                     sorted_list[i + 1] = temp
                     swaps += 1
                     print(swaps)
-        elif (str(selectedOrder) == "htl"): # high-to-low sorting
+        elif (str(selectedOrder) == "lth"): # high-to-low sorting
             for i in range(len(list) - 1):
                 if sorted_list[i] < sorted_list[i + 1]: # swap
                     temp = sorted_list[i]
@@ -27,7 +27,7 @@ def bubble_sort(list, selectedOrder): #selectedOrder could be either 'lth' (low-
     return sorted_list
 
 print(bubble_sort([2, 3, 1], "lth"))  # result: [1, 2, 3] 
-print(bubble_sort([2, 3, 1], "htl"))  # result: [3, 2, 1]
-print(bubble_sort([2, 5, 0, -2, 3, 1, 6, 6, 7], "htl")) # result: [7, 6, 6, 5, 3, 2, 1, 0, -2] 
-print(bubble_sort([2, 3, 1], "xyz"))  # result: (message will be displayed)
+print(bubble_sort([2, 3, 1], "lth"))  # result: [3, 2, 1]
+print(bubble_sort([2, 5, 0, -2, 3, 1, 6, 6, 7], "lth")) # result: [7, 6, 6, 5, 3, 2, 1, 0, -2] 
+print(bubble_sort([2, 3, 1], "lth"))  # result: (message will be displayed)
 print(bubble_sort([], "lth"))  # result: [] 
