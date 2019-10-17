@@ -8,7 +8,7 @@ fac = []
 if num > 1:
     
 # check for all factors
-   for i in range(2,num):
+   for i in range(1,num+1):
            if(num % i)==0:
             print(i,"times",num//i,"is",num)
             fac.append(i)
