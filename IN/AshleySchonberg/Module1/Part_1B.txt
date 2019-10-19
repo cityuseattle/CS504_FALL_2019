@@ -1,0 +1,15 @@
+1. Challenge repository: https://github.com/Kill-Console/PythonShootGame
+2. Decribe all of the Python files in your challenge repository. What do they do? How do they do it?
+    a. There are two .py files in this repository: gameRole.py and mainGame.py
+        i. mainGame.py -- This file sets up the main PythonShootGame loop.
+        ii. gameRole.py -- This file creates the Bullet, Player, and Enemy classes used in mainGame.py.
+3. Analyze the documentation for your challenge repository. List 3 things that are clear about the documentation and 3 things that are NOT clear about the documentation.
+    a. Three things that are clear:
+        i. This game uses the open source pygame library.
+        ii. When a player kills an enemy, the game plays a sound, removes that enemy from the game, then adds 1000 points to the player's score.
+        iii. If a player dies, the game_over_sound plays.
+    b. Three things that are NOT clear:
+        i. I'm unsure what "TYPE_SMALL = 1" refers to in the gameRole.py file. It's not used anywhere else in the program. I wasn't able to find it in the pygame documentation. Does this just set varied text sizes?
+        ii. enemy1 and enemies1 are both used in these files & because they are so similar, they can be confusing. enemySingle and enemyGroup might be more effective.
+        iii. screen.blit appears to the be background image, but unclear. Again, a more descriptive name would be helpful here.
+
