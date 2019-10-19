@@ -10,7 +10,7 @@ def print_factors(x):
         
 num = int(input("Enter a number: "))
 
-# If given number is greater than 1 
+# If given number is greater than 1 then iterate from 2 to n/2 
 if num > 1: 
 
   # Iterate from 2 to n / 2 
