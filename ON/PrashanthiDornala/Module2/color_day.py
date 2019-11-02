@@ -6,7 +6,7 @@ def color_of_mybirthday(date):
     born=datetime.datetime.strptime(date,'%m/%d/%Y').weekday()
     #born=datetime.datetime.strptime(date,'%m/%d/%y').weekday()
     day=calendar.day_name[born]
-    if day=='Sunday':
+    if day == 'Sunday':
         color='Red'
     elif day=='Monday':
         color='Yellow'
@@ -22,6 +22,6 @@ def color_of_mybirthday(date):
         color='Purple'
     return (day,color)
 
-date=input("What is your birthday? (mm/dd/yyyy): ")
+date=input("What is ur birthday? (mm/dd/yyyy): ")
 day,color_day=color_of_mybirthday(date)
 print("Color of my Birthday({}): {}".format(day,color_day))
