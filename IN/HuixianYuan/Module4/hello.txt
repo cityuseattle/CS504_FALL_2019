@@ -1,0 +1,2 @@
+Hello World from hello.txt
+This is a new content I just appended.
