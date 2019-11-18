@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Bob",
+        "age": 44,
+        "isEmployed": true,
+        "balance": null
+    },
+    {
+        "name": "Alice",
+        "age": 40,
+        "isEmployed": false,
+        "balance": 0
+    }
+]
