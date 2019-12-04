@@ -2,7 +2,7 @@ from PIL import Image, ImageFilter
 
 # blur image
 img = Image.open('bulldog2.png')
-im_blurred = img.filter(filter=ImageFilter.blur)
+im_blurred = img.filter(filter=ImageFilter.BLUR)
 im_blurred.save('blur.jpg')
 
 # grayscale

@@ -21,4 +21,4 @@ def multi_face():
 
 
 if __name__ == "__main__":
-    multi_face
+    multi_face()
